@@ -1,5 +1,83 @@
 [
   {
+    "ContainingType": "modul10_103022300107.Controllers.MovieController",
+    "Method": "Get",
+    "RelativePath": "Movie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[modul10_103022300107.Movie, modul10_103022300107, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300107.Controllers.MovieController",
+    "Method": "Post",
+    "RelativePath": "Movie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Movie",
+        "Type": "modul10_103022300107.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "modul10_103022300107.Controllers.MovieController",
+    "Method": "Get",
+    "RelativePath": "Movie/{index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "modul10_103022300107.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300107.Controllers.MovieController",
+    "Method": "Delete",
+    "RelativePath": "Movie/{index}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "modul10_103022300107.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
